@@ -6,4 +6,7 @@ attr_accessor :name
     @name = name
   end
 
+  def back_project
+    
+  end
 end
