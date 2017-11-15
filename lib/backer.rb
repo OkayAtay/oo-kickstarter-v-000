@@ -1,4 +1,6 @@
-class Backer
+require 'pry'
+
+lass Backer
 
 attr_accessor :name, :backed_projects
 
