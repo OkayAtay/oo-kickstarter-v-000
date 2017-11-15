@@ -8,6 +8,7 @@ class Project
   end
 
   def add_backer(backer)
+    pry
     @backers << backer
     if @backed_projects.find {|project| project.name != self }
       backer.back_project(self)
