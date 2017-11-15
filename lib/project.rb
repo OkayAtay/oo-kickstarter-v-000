@@ -5,7 +5,7 @@ class project
     @title=title
   end
 
-  def add_backer
+  def add_backer(backer)
     
   end
 end
