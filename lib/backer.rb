@@ -1,7 +1,7 @@
 class Backer
 
-  def initalize
-    
+  def initialize
+
   end
-  
+
 end
