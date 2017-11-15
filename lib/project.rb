@@ -12,5 +12,4 @@ class Project
     if @backed_projects.find {|project| project.name != self }
       backer.back_project(self)
     end
-
 end
