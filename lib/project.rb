@@ -10,6 +10,7 @@ class Project
   def add_backer(backer)
     binding.pry
     @backers << backer
+    project.back_project(self)
     #if self.backers.each {|project| project.backed_projects != self }
       #backer.back_project(self)
   #  end
