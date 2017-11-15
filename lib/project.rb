@@ -11,8 +11,7 @@ class Project
     binding.pry
     @backers << backer
     if self.backers.each {|project| project.backed_projects != self }
-
-      #backer.back_project(self)
-    #end
+      backer.back_project(self)
+    end
   end
 end
