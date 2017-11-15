@@ -9,5 +9,8 @@ class Project
 
   def add_backer(backer)
     @backers << backer
-    backer.back_project(self) 
+    if @backed_projects.find {|project| project.name != self }
+      
+    end
+    backer.back_project(self)
 end
